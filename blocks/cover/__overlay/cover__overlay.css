@@ -1,0 +1,35 @@
+.cover__overlay{
+    background-image: url(../../../images/__background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+    max-width: 1184px;
+    margin: 92px auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay{
+        height: 640px;
+        max-width: 1024px;
+        margin: 92px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay{
+        background-image: url(../../../images/__background768.png);
+        height: 480px;
+        max-width: 100%;
+    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay{
+        background-image: url(../../../images/__background320.png);
+        height: 200px;
+        max-width: 100%;
+        margin: 66px auto 0 auto;
+    }
+}
