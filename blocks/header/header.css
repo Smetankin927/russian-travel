@@ -4,6 +4,8 @@
     padding-top: 28px;
     justify-content: space-between;
     max-width: 1184px;
+    width: 100%; /**/
+    align-items: center;
 }
 
 @media screen and (max-width: 1024px) {

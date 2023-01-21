@@ -1,0 +1,14 @@
+.footer__links-container{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links-container{
+        display: flex;
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        gap: 32px;
+    }
+}

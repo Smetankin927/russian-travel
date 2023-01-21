@@ -3,7 +3,7 @@
     margin-top: 64px;
     margin-bottom: 0;
     line-height: 0;
-
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,5 +15,6 @@
 @media screen and (max-width: 320px) {
     .lead__image{
         margin-top: 40px;
+        min-height: 200px;
     }
 }

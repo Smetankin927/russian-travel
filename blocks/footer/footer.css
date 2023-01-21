@@ -20,6 +20,12 @@
         margin-top: 88px;
     }
 }
+@media screen and (max-width: 710px) {
+    .footer{
+        flex-direction: column;
+        gap: 48px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .footer{

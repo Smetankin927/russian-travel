@@ -2,13 +2,17 @@
     margin: auto;
     margin-top: 32px;
     margin-bottom: 0;
+    padding: 0;
+    
     max-width: 640px;
-
+    width: 100%;/*second*/
     
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
+
+    text-align:center;
 
     color: #FFFFFF;
 }
@@ -18,5 +22,6 @@
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
+        margin-top: 16px;
     }
 }
