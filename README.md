@@ -17,4 +17,3 @@
 Планы по доработке:
 * с использованием относительных величин и функции calc добиться большей адаптивности сайта
 
-[https://github.com/Smetankin927/russian-travel](https://smetankin927.github.io/russian-travel/)
