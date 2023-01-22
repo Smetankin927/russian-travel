@@ -8,9 +8,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    
-    
-    
+
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 .header__lang-link:last-child{
@@ -18,7 +19,7 @@
 }
 
 .header__lang-link:hover{
-    cursor: pointer;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {

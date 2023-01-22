@@ -5,7 +5,9 @@
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 1280px)
+/*а я думал, что не надо заботиться об экранах больших, чем в брифе...*/
+
+@media screen and (min-width: 1025px)
 {
     .place__image{
         width: 460px;

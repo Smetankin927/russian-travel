@@ -7,7 +7,8 @@
     margin: 0;
     padding-right: 18px;
     
-    transition: opacity 0.5s;
+    opacity: 1;
+    transition: opacity 0.5s;/*свойство вроде стоит в основных стилях и применяется не только при наведении...*/
 
     text-decoration: none;
     color: #FFFFFF;

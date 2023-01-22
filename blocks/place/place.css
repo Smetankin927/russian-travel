@@ -5,7 +5,7 @@
 .place:not(:first-child){
     margin-top: 80px;
 }
-@media screen and (min-width: 1025px) and (max-width: 1280px)
+@media screen and (min-width: 1025px)
 {
     .place{
     grid-template-columns: repeat(2,calc((100% - 40px)/2));
