@@ -2,20 +2,18 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-    /*max-width: 100%;*/
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
 
-    /*text-align: left;*/
 }
 
 .place__paragraph:last-child{
     margin-top: 26px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .place__paragraph{
         font-size: 16px;
     }
@@ -23,7 +21,6 @@
 
 @media screen and (max-width: 320px) {
     .place__paragraph{
-        font-size: 16px;
         margin-left: 16px;
         margin-right: 16px;
     }

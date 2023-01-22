@@ -5,7 +5,7 @@
 .place:not(:first-child){
     margin-top: 80px;
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px)
+@media screen and (min-width: 1025px) and (max-width: 1280px)
 {
     .place{
     grid-template-columns: repeat(2,calc((100% - 40px)/2));
@@ -14,14 +14,14 @@
     
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .place{
         grid-template-columns: repeat(2,calc((100% - 32px)/2));
         gap: 48px 32px;
     }
 }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place{
         grid-template-columns: repeat(2,calc((100% - 28px)/2));
         gap: 48px 28px;
@@ -29,9 +29,9 @@
     .place:not(:first-child){
         margin-top: 73px;
     }
-}*/
+}
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 740px) {
     .place{
         grid-template-columns: 1fr;
         gap: 32px;

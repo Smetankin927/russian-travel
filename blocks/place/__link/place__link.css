@@ -3,16 +3,10 @@
 	padding:0;
 	align-self: end;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .place__link{
         margin-left: 16px;
         
     }
 }
 
-@media screen and (max-width: 320px) {
-    .place__link{
-        margin-left: 16px;
-        
-    }
-}

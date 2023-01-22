@@ -1,6 +1,23 @@
 .cover
 {
-    width: 100%;
-    margin: 0;
+    max-width: 100%;
+    margin: 92px auto 0 auto; /*from overlay*/
     padding: 0;
+}
+
+
+@media screen and (max-width: 800px)
+{
+    .cover{
+    margin-top: 89px;
+    }
+    
+}
+
+@media screen and (max-width: 322px)
+{
+    .cover{
+    margin-top: 66px;
+    }
+    
 }

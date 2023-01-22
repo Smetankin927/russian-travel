@@ -4,7 +4,6 @@
     margin-top: 92px;
     margin-bottom: 0;
     text-align: start;
-    align-self: start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,6 +11,8 @@
         margin-left: 48px;
     }
 }
+
+
 
 @media screen and (max-width: 768px) {
     .intro{
@@ -24,7 +25,6 @@
 @media screen and (max-width: 320px) {
     .intro{
         max-width: 288px;
-        margin:auto;
         margin-top: 64px;
     }
 
